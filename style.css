@@ -1,0 +1,577 @@
+/*-----------BASIC------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+body, html{
+  overflow-x: hidden;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+
+#checkbox-menu,
+.toggle{
+    display: none;
+}
+
+/*-----------MENU-------------*/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  min-height: 30px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #eee;
+  z-index: +1;
+}
+.about-conteiner,
+.features,
+.cars{
+  padding-top: 50px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    align-self: center;
+    font-size: 13px;
+    padding: 10px 15px;
+    transition: background .2s linear;
+}
+
+#header-img{
+  max-width: 110px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.logo {
+  width: 60vw;
+  align-items: center;
+}
+
+#nav-bar > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px 30px;
+  width: 45vw;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link:hover{
+  color: red;
+}
+/*------------Lading intro image--------------*/
+
+#intro {
+  background: url(intro.jpg) no-repeat center top / cover;
+  /*background: url(https://volgograd.agat-group.com/upload/ed/edf3372bd8c21d9e5d56128183161f0b.jpg) no-repeat center top / cover;*/
+  width: 100%;
+  height: 100vh;
+}
+
+.lexus-intro {
+  max-width: 40vw;
+  display: block;
+  transition: 3s;
+  cursor: pointer;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 80px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.lexus-intro:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 3s;
+}
+
+/*---------------About-------------*/
+
+.about-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.about-info{
+  width: 50%;
+  margin: 10px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+h1{
+  margin-bottom: 20px;
+}
+h2{
+  margin-bottom: 20px;
+}
+p{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.video{
+  margin: 10px;
+  width: 50%;
+}
+
+.security,
+.quality,
+.comfort{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+
+
+}
+
+.icon{
+  width: 35%;
+  margin: 10px;
+}
+
+.description{
+  width: 65%;
+  font-size: 1.3rem;
+  margin: 10px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/*----------------CARS----------------*/
+
+input[type="radio"]{
+    display: none;
+
+}
+
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.p-car{
+  bottom: 20px;
+  left: 40px;
+  position: absolute;
+}
+.cars{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 30px;
+  margin: 50px;
+
+}
+
+.car-box-gs,
+.car-box-rx,
+.car-box-lx {
+  min-width: 400px;
+  min-height: 600px;
+  border: 1px solid gray;
+}
+
+.lexus-gs,
+.lexus-rx,
+.lexus-lx{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.lexus-gs:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+.lexus-rx:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+.lexus-lx:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+
+.cars label{
+  position: absolute;
+  cursor: pointer;
+}
+.cars span:hover{
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 1.35rem;
+
+}
+.p-car{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cost{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.btn-white{
+  bottom: 20px;
+    left: 200px;
+}
+.btn-black{
+  bottom: 20px;
+    left: 250px;
+}
+.btn-red{
+  bottom: 20px;
+    left: 300px;
+}
+.btn-blue{
+  bottom: 20px;
+    left: 350px;
+}
+
+.cars span {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1.3rem;
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.span-white{
+   display: flex;
+    background: white; 
+   
+}
+
+.span-black{
+ display: flex;
+    background: black;
+}
+
+.span-red{
+   display: flex;
+    background: red;  
+}
+
+.span-blue{
+   display: flex;
+    background: blue;
+}
+
+/*-----------LEXUS GS-----------*/
+#white-gs:checked ~ .car-box-gs {
+    background: url(gs/gs-white.png) no-repeat center center / cover;
+      transition: 1s;
+}
+
+#black-gs:checked ~ .car-box-gs {
+    background: url(gs/gs-black.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+#red-gs:checked ~ .car-box-gs {
+    background: url(gs/gs-red.png) no-repeat center center / cover;
+    transition: 1s;
+
+}#blue-gs:checked ~ .car-box-gs {
+    background: url(gs/gs-blue.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+/*-----------LEXUS RX-----------*/
+#white-rx:checked ~ .car-box-rx {
+    background: url(rx/rx-white.png) no-repeat center center / cover;
+    transition: 1s;
+
+}
+
+#black-rx:checked ~ .car-box-rx {
+    background: url(rx/rx-black.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+#red-rx:checked ~ .car-box-rx {
+    background: url(rx/rx-red.png) no-repeat center center / cover;
+    transition: 1s;
+
+}#blue-rx:checked ~ .car-box-rx {
+    background: url(rx/rx-blue.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+
+/*-----------LEXUS LX-----------*/
+#white-lx:checked ~ .car-box-lx {
+    background: url(lx/lx-white.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+#black-lx:checked ~ .car-box-lx {
+    background: url(lx/lx-black.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+#red-lx:checked ~ .car-box-lx {
+    background: url(lx/lx-red.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+#blue-lx:checked ~ .car-box-lx {
+    background: url(lx/lx-blue.png) no-repeat center center / cover;
+    transition: 1s;
+}
+
+
+/*-----------------Subscribe---------------*/
+ #subscribe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 120px;
+  background: url(cost-bg.jpg) no-repeat center center / cover;
+  height: 100vh;
+  }
+
+#subscribe h2 {
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+#form{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#subscribe input[type="email"] {
+  max-width: 30%;
+   width: 100%;
+  padding: 14px;
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+
+#email:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+#subscribe input[type="submit"] {
+  max-width: 30%;
+  width: 100%;
+  height: 60px;
+  margin: 15px 0 50px 0;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+#subscribe input[type="submit"]:hover {
+  background-color: red;
+  transition: background-color 1s;
+}
+
+ /*----------------Footer-----------------*/
+.footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #eee; 
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+.footer:hover{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+   
+}
+
+
+/*-------------MEDIA----------------*/
+
+@media (max-width: 1200px){
+.about-conteiner{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 95%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  .about-info, .video{
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.security,
+.quality,
+.comfort{
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.icon{
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  }
+
+.description{
+  width: 95%;
+  margin: 0 auto;
+  }
+  .cars{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  margin: 10px;
+  }
+.car-box-gs,
+.car-box-rx,
+.car-box-lx {
+  min-width: 400px;
+  min-height: 700px;
+}
+.lexus-intro {
+  max-width: 80vw;
+   padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .toggle{
+    font-size: 30px;
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+
+  nav ul{
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+  }
+  
+  
+  #checkbox-menu:checked + label .touch {
+    opacity: 1;
+    visibility: visible;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.3s linear;
+    height: 300px;
+    }
+
+
+  .menu li a{
+    width: 95%;
+    align-content: center;
+  }
+
+  .menu{
+    height:0px;
+    transition: height 0.3s linear;
+  }
+
+  #subscribe input[type="email"] {
+  max-width: 90%;
+  }
+  #subscribe input[type="submit"] {
+  max-width: 90%;
+  }
+  
+}
+
+
+
+@media (max-width: 520px){
+
+  .car-box-gs,
+  .car-box-rx,
+  .car-box-lx {
+    min-width: 350px;
+    min-height: 450px;
+}
+}
+
+
+/*<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_eminent-white_LEX-GSG-MY18-0014-10_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-white"> -->
+                  
+<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_obsidian_LEX-GSG-MY18-0014-14_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-black"> -->
+
+<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_matador-red_LEX-GSG-MY18-0014-16_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-red"> -->
+
+<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_nightfall-mica_LEX-GSG-MY18-0014-17_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-blue"> -->*/
