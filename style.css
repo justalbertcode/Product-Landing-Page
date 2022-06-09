@@ -97,7 +97,7 @@ header{
 /*------------Lading intro image--------------*/
 
 #intro {
-  background: url(intro.jpg) no-repeat center top / cover;
+  background: url(img/intro.jpg) no-repeat center top / cover;
   /*background: url(https://volgograd.agat-group.com/upload/ed/edf3372bd8c21d9e5d56128183161f0b.jpg) no-repeat center top / cover;*/
   width: 100%;
   height: 100vh;
@@ -312,64 +312,64 @@ h2{
 
 /*-----------LEXUS GS-----------*/
 #white-gs:checked ~ .car-box-gs {
-    background: url(gs/gs-white.png) no-repeat center center / cover;
+    background: url(img/gs/gs-white.png) no-repeat center center / cover;
       transition: 1s;
 }
 
 #black-gs:checked ~ .car-box-gs {
-    background: url(gs/gs-black.png) no-repeat center center / cover;
+    background: url(img/gs/gs-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-gs:checked ~ .car-box-gs {
-    background: url(gs/gs-red.png) no-repeat center center / cover;
+    background: url(img/gs/gs-red.png) no-repeat center center / cover;
     transition: 1s;
 
 }#blue-gs:checked ~ .car-box-gs {
-    background: url(gs/gs-blue.png) no-repeat center center / cover;
+    background: url(img/gs/gs-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 /*-----------LEXUS RX-----------*/
 #white-rx:checked ~ .car-box-rx {
-    background: url(rx/rx-white.png) no-repeat center center / cover;
+    background: url(img/rx/rx-white.png) no-repeat center center / cover;
     transition: 1s;
 
 }
 
 #black-rx:checked ~ .car-box-rx {
-    background: url(rx/rx-black.png) no-repeat center center / cover;
+    background: url(img/rx/rx-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-rx:checked ~ .car-box-rx {
-    background: url(rx/rx-red.png) no-repeat center center / cover;
+    background: url(img/rx/rx-red.png) no-repeat center center / cover;
     transition: 1s;
 
 }#blue-rx:checked ~ .car-box-rx {
-    background: url(rx/rx-blue.png) no-repeat center center / cover;
+    background: url(img/rx/rx-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 
 /*-----------LEXUS LX-----------*/
 #white-lx:checked ~ .car-box-lx {
-    background: url(lx/lx-white.png) no-repeat center center / cover;
+    background: url(img/lx/lx-white.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #black-lx:checked ~ .car-box-lx {
-    background: url(lx/lx-black.png) no-repeat center center / cover;
+    background: url(img/lx/lx-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-lx:checked ~ .car-box-lx {
-    background: url(lx/lx-red.png) no-repeat center center / cover;
+    background: url(img/lx/lx-red.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #blue-lx:checked ~ .car-box-lx {
-    background: url(lx/lx-blue.png) no-repeat center center / cover;
+    background: url(img/lx/lx-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
@@ -380,7 +380,7 @@ h2{
   flex-direction: column;
   text-align: center;
   margin-top: 120px;
-  background: url(cost-bg.jpg) no-repeat center center / cover;
+  background: url(img/cost-bg.jpg) no-repeat center center / cover;
   height: 100vh;
   }
 
@@ -567,11 +567,3 @@ a {
 }
 }
 
-
-/*<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_eminent-white_LEX-GSG-MY18-0014-10_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-white"> -->
-                  
-<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_obsidian_LEX-GSG-MY18-0014-14_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-black"> -->
-
-<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_matador-red_LEX-GSG-MY18-0014-16_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-red"> -->
-
-<!-- <img class="img-car" src="https://www.lexus.com/-/media/TMNA.LEXC/Project/Lexus/Homepage/Vehicle-Selector/vehicle/GS/2020/Homepage_GS_nightfall-mica_LEX-GSG-MY18-0014-17_1400x1400.png?rev=f5ba0c4bfd8447b2a7ef85e47e7537c9?la=en&hash=C23FA36E89AEB8A4FEECC09C2384FFCB" alt="gs-blue"> -->*/
