@@ -312,64 +312,64 @@ h2{
 
 /*-----------LEXUS GS-----------*/
 #white-gs:checked ~ .car-box-gs {
-    background: url(img/gs/gs-white.png) no-repeat center center / cover;
+    background: url(gs/gs-white.png) no-repeat center center / cover;
       transition: 1s;
 }
 
 #black-gs:checked ~ .car-box-gs {
-    background: url(img/gs/gs-black.png) no-repeat center center / cover;
+    background: url(gs/gs-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-gs:checked ~ .car-box-gs {
-    background: url(img/gs/gs-red.png) no-repeat center center / cover;
+    background: url(gs/gs-red.png) no-repeat center center / cover;
     transition: 1s;
 
 }#blue-gs:checked ~ .car-box-gs {
-    background: url(img/gs/gs-blue.png) no-repeat center center / cover;
+    background: url(gs/gs-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 /*-----------LEXUS RX-----------*/
 #white-rx:checked ~ .car-box-rx {
-    background: url(img/rx/rx-white.png) no-repeat center center / cover;
+    background: url(rx/rx-white.png) no-repeat center center / cover;
     transition: 1s;
 
 }
 
 #black-rx:checked ~ .car-box-rx {
-    background: url(img/rx/rx-black.png) no-repeat center center / cover;
+    background: url(rx/rx-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-rx:checked ~ .car-box-rx {
-    background: url(img/rx/rx-red.png) no-repeat center center / cover;
+    background: url(rx/rx-red.png) no-repeat center center / cover;
     transition: 1s;
 
 }#blue-rx:checked ~ .car-box-rx {
-    background: url(img/rx/rx-blue.png) no-repeat center center / cover;
+    background: url(rx/rx-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 
 /*-----------LEXUS LX-----------*/
 #white-lx:checked ~ .car-box-lx {
-    background: url(img/lx/lx-white.png) no-repeat center center / cover;
+    background: url(lx/lx-white.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #black-lx:checked ~ .car-box-lx {
-    background: url(img/lx/lx-black.png) no-repeat center center / cover;
+    background: url(lx/lx-black.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #red-lx:checked ~ .car-box-lx {
-    background: url(img/lx/lx-red.png) no-repeat center center / cover;
+    background: url(lx/lx-red.png) no-repeat center center / cover;
     transition: 1s;
 }
 
 #blue-lx:checked ~ .car-box-lx {
-    background: url(img/lx/lx-blue.png) no-repeat center center / cover;
+    background: url(lx/lx-blue.png) no-repeat center center / cover;
     transition: 1s;
 }
 
